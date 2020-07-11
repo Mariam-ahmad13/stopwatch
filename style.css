@@ -1,0 +1,30 @@
+.stopwatch{
+    text-align: center;
+    margin-top: 300px;
+}
+
+body{
+    color: white;
+    background-color: black;
+    font-size: 50px;
+}
+
+ button :hover{
+    background-color:black;
+    color:white;
+} 
+
+button{
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+}
+
+input{
+    height: 40px;
+}
+
+ul{
+    list-style: none;
+}

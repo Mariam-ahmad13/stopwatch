@@ -38,6 +38,7 @@ function start(){
 
 function stop(){
     clearInterval(interval)
+    document.getElementById("start").disabled = false;
 }
 
 
@@ -52,8 +53,5 @@ function reset(){
     secSpan.innerHTML = "00";
     minSpan.innerHTML = "00";
     laps.innerHTML = ' '
-}
-
-function fontsize(){
-
+    document.getElementById("start").disabled = false;
 }
